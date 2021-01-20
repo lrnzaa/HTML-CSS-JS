@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(184, 230, 184);
+}
+
+#canvas{
+    height: 100%;
+    width: 100%;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon{
+    height: 0;
+}
+
+.santa{
+    display: flex;
+    justify-content: center;
+}
+
+.hh{
+    display: flex;
+    justify-content: center;
+}
+
+.text-hh{
+    height: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.happy{
+    animation: effect 4s infinite alternate;
+}
+
+@keyframes effect {
+    0% {color: rgb(255, 255, 0);}
+    20% {color: rgb(255, 0, 0);}
+    40% {color: rgb(3, 196, 199);}
+    60% {color: rgb(255, 0, 132);}
+    80% {color: rgb(27, 206, 0);}
+    100% {color: rgb(255, 111, 0);}
+}
+
+#snowicon{
+    animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(3deg);
+    }
+    40% {
+        transform: rotate(0deg);
+    }
+    60% {
+        transform: rotate(-3deg);
+    }
+    80% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(3deg);
+    }
+}
+
+.gift{
+    display: flex;
+}
+
+.desc{
+    display: none;
+    width: 140px;
+    height: 35px;
+    padding-bottom: 12px;
+    text-align: center;
+    margin-top: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    border-radius: 25px;
+    border-width: 5px;
+    border: red;
+    border-style: solid;
+}
+
+.img:hover + .desc{
+    display: block;
+    animation: giftText 3s infinite alternate;
+}
+
+@keyframes giftText {
+    0% {border-color: red;}
+    10% {border-color: darkgray;}
+    20% {border-color: yellow;}
+    30% {border-color: royalblue;}
+    40% {border-color: green;}
+    60% {border-color: white;}
+    80% {border-color: purple;}
+    100% {border-color: cyan;}
+}
+
+#hide {
+    display: none;
+}
+
+.hny{
+    display: flex;
+    justify-content: center;
+}
+
+.text2{
+    height: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.ct {
+    display: flex;
+    margin-top: 310px;
+}
+
+#tree{
+    margin-left: 10px;
+}
+
+#bells{
+    margin-right: 10px;
+}
+
+#ny{
+    /* display: none; */
+    color: rgb(1, 56, 1);
+    animation: merry 2s infinite alternate;
+}
+
+@keyframes merry {
+    0% {color: rgb(1, 75, 1);}
+    20% {color: rgb(4, 90, 4);}
+    40% {color: rgb(4, 124, 4);}
+    60% {color: rgb(241, 27, 27);}
+    80% {color: rgb(202, 25, 25);}
+    100% {color: rgb(136, 8, 8);}
+}
