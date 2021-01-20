@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.head{
+    background-color: rgb(186, 0, 0);
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+.left{
+    font-size: 22px;
+    width: 43%;
+    margin-left: 20px;  
+}
+
+.center{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#home-link:hover{
+    color: yellow;
+}
+
+#menu-link:hover{
+    color: yellow;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(71, 71, 71);
+    width: 600px;
+    height: 200px;
+}
+
+.footer{
+    background-color: rgb(186, 0, 0);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 99%;
+    font-size: 18px;
+    color: rgb(246, 248, 141);
+}
