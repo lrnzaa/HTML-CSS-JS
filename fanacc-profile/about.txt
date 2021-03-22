@@ -1,0 +1,3 @@
+function same like carrd. but because i'm lazy to create the carrd am gonna code it like this.
+
+17/03/2021 - ? 22/03/2021 20.12
