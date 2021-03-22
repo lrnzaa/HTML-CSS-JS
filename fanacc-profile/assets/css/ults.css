@@ -151,4 +151,8 @@ hr{
         width: fit-content;
         height: fit-content;
     }
+    
+    .krist-image{
+        width: 65%;
+    }
 }
