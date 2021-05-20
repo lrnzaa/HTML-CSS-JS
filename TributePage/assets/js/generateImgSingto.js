@@ -13,3 +13,10 @@ var images_ref = document.getElementById('photos-container');
 for(var i = 0; i < 15; i++) {
     addImages(images_ref);
 }
+
+// var arrtemp = [];
+// for (var i = 0; i < 15; i++)
+// {
+//     arrtemp.push(images.splice(
+//     Math.floor(Math.random() * images.length), 1)[0]);
+// }
