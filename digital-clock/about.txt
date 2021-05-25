@@ -1,0 +1,4 @@
+Digital Clock inspired from:
+https://jsbeginners.com/javascript-digital-clock/
+
+-20210525-
