@@ -1,0 +1,4 @@
+Brick Breaker Game.
+Inspired from: https://jsbeginners.com/javascript-brick-breaker-game/
+
+-20210525 - 20210528-
