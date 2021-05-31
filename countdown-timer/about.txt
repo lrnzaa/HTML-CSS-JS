@@ -1,0 +1,5 @@
+Countdown event timer.
+
+Inspired from: https://jsbeginners.com/javascript-countdown-timer/
+
+-20210531-
