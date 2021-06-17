@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+body{
+    background-color: rgb(213, 187, 169);
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.canvas{
+    background-color: rgb(116, 95, 91);
+    color: rgb(255, 255, 255);
+    width: 50%;
+    height: 400px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.topmsg{
+    margin-top: 50px;
+    font-size: 26px;
+}
+
+#message{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+}
+
+button{
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 8px;
+    border-radius: none;
+    background-color: rgb(255, 255, 225);
+}
