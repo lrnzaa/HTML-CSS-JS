@@ -1,0 +1,4 @@
+Random msg generator.
+Inspired from: https://github.com/JS-Beginners/Dynamic-Time-Message
+
+-20210617-
