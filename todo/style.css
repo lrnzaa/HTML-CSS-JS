@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+body{
+    background-color: #c5d7ec;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+}
+
+.intro{
+    margin: 30px 0px;
+    font-weight: bold;
+}
+
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-shadow: 4px 3px rgba(97, 97, 97, 0.919);
+}
+
+#enter{
+    height: 40px;
+    font-weight: 700;
+    margin-left: 15px;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #19314d;
+    color: #fff;
+    transition: all 9.75s ease;
+    -webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+}
+
+#enter:hover{
+    background-color: #ecf2f9;
+    color: #000;
+    font-weight: 700;
+}
+
+ul{
+    text-align: left;
+    margin-top: 20px;
+}
+
+li{
+    width: 95%;
+    align-items: center;
+    list-style: none;
+    padding: 10px 20px;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: normal;
+    border: 2px solid #025f70;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #80dfff;
+    transition: all 0.75s ease;
+    -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover{
+    background-color: #ccf3ff;
+}
+
+li > button{
+    font-weight: normal;
+    background-color: none;
+    border: none;
+    float: right;
+    color: #025f70;
+    font-weight: 800;
+}
+
+input{
+    border-radius: 3px;
+    min-width: 60%;
+    padding: 8px;
+    border: none;
+    height: 30px;
+}
+
+.done{
+    background-color: #66ff33 !important;
+    color: #1a6600;
+}
+
+.delete{
+    display: none;
+}
